@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <form name="quiz" method="post" name="buttons" id="quiz" >
+
+        <li class="li"><div class="question">Q.1 What is one of the keyboard shortcuts for copy?</div></li>
+        a.<input id="answer" type="radio" name="group1" value="correct"> Ctrl + C<br>
+        b.<input id="answer" type="radio" name="group1" value="wrong"> Ctrl + V<br>
+        c.<input id="answer" type="radio" name="group1" value="wrong"> Shift + C<hr>
+
+        <li class="li"><div class="question">Q.2 What element of the browser enables you to get additional features?</div></li>
+        a. <input id="answer" type="radio" name="group2" value="wrong">Browser Addons<br>
+        b. <input id="answer" type="radio" name="group2" value="wrong">More Features<br>
+        c. <input id="answer" type="radio" name="group2" value="correct">Browser Extensions<hr>
+
+        <li class="li"><div class="question">Q.3 What is one of the keyboard shortcuts for paste?</div></li>
+        a.<input id="answer" type="radio" name="group3" value="correct"> Ctrl + V<br>
+        b.<input id="answer" type="radio" name="group3" value="wrong">Ctrl + P<br>
+        c.<input id="answer" type="radio" name="group3" value="wrong" >Shift + V<hr>
+
+        <li class="li"><div class="question">Q.4 What computer component is featured on the front page?</div></li>
+        a. <input id="answer" type="radio" name="group4" value="correct"> Graphics Card<br>
+        b. <input id="answer" type="radio" name="group4" value="wrong">Motherboard<br>
+        c. <input id="answer" type="radio" name="group4" value="wrong" >Hard Drive<hr>
+        
+        <li class="li"><div class="question"> Q.5 What's the quickest way to find specific text on this page?</div></li>
+        a. <input id="answer" type="radio" name="group5" value="wrong">Look for it<br>
+        b. <input id="answer" type="radio" name="group5" value="correct"> Ctrl + F<br>
+        c. <input id="answer" type="radio" name="group5" value="wrong"> Ctrl + L<hr>
+
+
+        <button class="submit" onclick="handleClick();" type="submit">Submit</button>
+        
+        </form>
+
+        <script src="index.js" rel="script"></script>
+</body>
+</html>
