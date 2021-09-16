@@ -1,8 +1,33 @@
 body{
-    padding:5%;
+    padding:2%;
     background-color: #D7E9F7;
+    font-weight: bold;
 }
 
 .li{
     list-style: none;
 }
+
+#a1{
+background-color: #C1FFD7;
+}
+
+#b1{
+    background-color: #93B5C6;
+}
+
+#c1{
+    background-color: #FFE194;
+}
+
+#d1{
+    background-color: #FFE2E2;
+}
+
+#e1{
+    background-color:  #9DAB86;
+}
+.submit{
+    background-color: #3DB2FF;
+}
+
